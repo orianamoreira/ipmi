@@ -5,7 +5,6 @@ int c3= color (0);
 int c4= color (255);
 int tamCuadrado = 40;
 int tamCirculo = 20;
-int cambiarColor =color(random(255),random(255),random(255));
 int ubicacion= 400;
 boolean resultado;
 //https://youtu.be/OquA-FSQB4g
