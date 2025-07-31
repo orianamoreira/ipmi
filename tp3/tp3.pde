@@ -58,8 +58,7 @@ void cuadradosYcirculos(int ubicacion){
   }
    }
 }
-//color(random(255),random(255),random(255));
-// la funcion boolean ayuda a determinar cuando se establece una accion ya sea si es true o false
+
 boolean camcolor (boolean resultado) {
     if (mousePressed) {
       resultado= true;
@@ -72,9 +71,7 @@ boolean camcolor (boolean resultado) {
      
       
 void mouseMoved() {
-  // constrain ayuda a restringir un valor para que no llegue ni a su maximo ni a su minimo
- // pmouseX es la posicion anterior del mouse en  X
-  if (mouseX > pmouseX) {
+ if (mouseX > pmouseX) {
    tamCirculo = constrain(tamCirculo +1, 10, 60);
   } 
 }
