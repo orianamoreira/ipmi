@@ -23,13 +23,7 @@ cuadradosYcirculos ( 400);
 
  }
 void cuadradosYcirculos(int ubicacion){
- if(camcolor(false)){
-   c1= color(random(255),random(255),random(255));
-   c2=color(random(255),random(255),random(255));
-   c3= color(random(255),random(255),random(255));
-   c4=color(random(255),random(255),random(255));
-   }
-   for(; ubicacion <800; ubicacion+=80){
+  for(; ubicacion <800; ubicacion+=80){
     for(int y =0; y< 800; y +=80){
  push();
  //cuadrados blancos
@@ -55,7 +49,12 @@ void cuadradosYcirculos(int ubicacion){
  ellipse(ubicacion+tamCirculo, y -tamCirculo, tamCirculo,tamCirculo);
  ellipse(ubicacion+60, y + tamCirculo,tamCirculo,tamCirculo);
  pop();
-      
+   if (camcolor(true)) {
+        c1= color(180, 20, 143);
+        c2=color(8, 104, 129);
+        c3= color(28, 160, 11);
+        c4=color(193, 27, 27);
+      }       
   }
    }
 }
