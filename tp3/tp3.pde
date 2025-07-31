@@ -7,7 +7,7 @@ int tamCuadrado = 40;
 int tamCirculo = 20;
 int ubicacion= 400;
 boolean resultado;
-//https://youtu.be/OquA-FSQB4g
+
 
 void setup(){
  size(800,400);
@@ -30,7 +30,7 @@ void cuadradosYcirculos(int ubicacion){
    c4=color(random(255),random(255),random(255));
    }
    for(; ubicacion <800; ubicacion+=80){
-    for(int y =0; y< 500; y +=80){
+    for(int y =0; y< 800; y +=80){
  push();
  //cuadrados blancos
  fill(c2);
